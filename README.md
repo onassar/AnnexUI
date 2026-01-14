@@ -79,7 +79,7 @@ your Typesense cluster settings).
 ``` html
 <script
     type="text/javascript"
-    src="https://cdn.jsdelivr.net/gh/onassar/AnnexUI@0.1.16-stable/dist/bundle.min.js"
+    src="https://cdn.jsdelivr.net/gh/onassar/AnnexUI@0.1.17-stable/dist/bundle.min.js"
     defer></script>
 <script type="text/javascript">
     document.addEventListener('DOMContentLoaded', function() {
@@ -341,7 +341,7 @@ can determine what the title, body and URL of the result ought to be (during
 rendering).
 
 ``` html
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/onassar/AnnexUI@0.1.16-stable/dist/bundle.min.js" defer></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/onassar/AnnexUI@0.1.17-stable/dist/bundle.min.js" defer></script>
 <script type="text/javascript">
     document.addEventListener('DOMContentLoaded', function() {
         let $annexSearchWidget = document.createElement('annex-search-widget');
@@ -374,5 +374,5 @@ Thereafter a release can be created via
 - `cd TurtlePHP/application/vendors/submodules/AnnexUI/`
 - `./scripts/dist.sh`
 - `git add . && git commit -m "Version bump" && git push`
-- `git tag -a 0.1.16-stable -m "Release based tag"`
-- `git push origin 0.1.16-stable`
+- `git tag -a 0.1.17-stable -m "Release based tag"`
+- `git push origin 0.1.17-stable`

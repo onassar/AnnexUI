@@ -216,9 +216,9 @@ window.annexSearch.DependencyLoader.push([], function() {
          * 
          * @access  private
          * @static
-         * @var     String (default: '0.1.16-stable')
+         * @var     String (default: '0.1.17-stable')
          */
-        static #__version = '0.1.16-stable';
+        static #__version = '0.1.17-stable';
 
         /**
          * #__setupUtils
