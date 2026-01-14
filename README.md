@@ -79,7 +79,7 @@ your Typesense cluster settings).
 ``` html
 <script
     type="text/javascript"
-    src="https://cdn.jsdelivr.net/gh/AnnexLabs/AnnexUI@0.1.16-stable/dist/bundle.min.js"
+    src="https://cdn.jsdelivr.net/gh/onassar/AnnexUI@0.1.16-stable/dist/bundle.min.js"
     defer></script>
 <script type="text/javascript">
     document.addEventListener('DOMContentLoaded', function() {
@@ -341,7 +341,7 @@ can determine what the title, body and URL of the result ought to be (during
 rendering).
 
 ``` html
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/AnnexLabs/AnnexUI@0.1.16-stable/dist/bundle.min.js" defer></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/onassar/AnnexUI@0.1.16-stable/dist/bundle.min.js" defer></script>
 <script type="text/javascript">
     document.addEventListener('DOMContentLoaded', function() {
         let $annexSearchWidget = document.createElement('annex-search-widget');
@@ -369,7 +369,7 @@ Namely, to `cd` into the directory (after version strings have been changed),
 building the dist-files, commit, tagging and pushing the tag.
 
 Thereafter a release can be created via
-[/releases](https://github.com/AnnexLabs/AnnexUI/releases/new).
+[/releases](https://github.com/onassar/AnnexUI/releases/new).
 
 - `cd TurtlePHP/application/vendors/submodules/AnnexUI/`
 - `./scripts/dist.sh`
